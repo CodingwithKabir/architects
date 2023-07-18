@@ -193,6 +193,40 @@ main {
     margin-top: 0px;
 }
 
+/* Sponsor section styles */
+
+.sponsors-container {
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+
+.sponsors-content {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.sponsors-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.sponsors-description {
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
+    width: 542px;
+    margin: 0 auto;
+}
+.sponsors-image{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Responsive Responsive Queries */
 
 /* Responsive Mobile Device */
@@ -226,17 +260,21 @@ main {
         padding: 0px 0px;
         text-align: center;
     }
-    .fact-description{
+
+    .fact-description {
         width: auto;
     }
-    .fact-container{
+
+    .fact-container {
         padding: 0px 10px;
         text-align: center;
     }
-    .fact-icon{
+
+    .fact-icon {
         flex-direction: column;
     }
-    .fact-icon>div{
+
+    .fact-icon>div {
         margin-bottom: 20px;
     }
 }
@@ -259,17 +297,21 @@ main {
     .gallery-container {
         flex-direction: column-reverse;
     }
-    .fact-container{
+
+    .fact-container {
         padding: 0px 100px;
         text-align: center;
     }
-    .fact-description{
+
+    .fact-description {
         width: auto;
     }
-    .fact-icon{
+
+    .fact-icon {
         flex-direction: column;
     }
-    .fact-icon>div{
+
+    .fact-icon>div {
         margin-bottom: 20px;
     }
 }
