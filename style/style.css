@@ -1,0 +1,130 @@
+/* Google Font Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Header Section */
+
+header {
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 45px 200px;
+}
+
+.header-section {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+}
+
+.header-text {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.header-title {
+    color: #131313;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.header-description {
+    color: #727272;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.primary-button {
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 18px 24px;
+    color: white;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+/* Nav Section */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    padding-right: 0px;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.logo {
+    color: #131313;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* main styles */
+
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+}
+
+/* Responsive Responsive Queries */
+
+/* Responsive Mobile Device */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 0px 10px;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    nav ul{
+        padding: 0px 0px;
+    }
+}
+
+/* Responsive Medium Device */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .nav{
+        flex-direction: column;
+    }
+    nav ul{
+        padding: 0px 20px;
+    }
+    header{
+        padding: 0px 40px;
+    }
+}
