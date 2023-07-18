@@ -89,6 +89,20 @@ nav>ul>li>a {
     font-weight: 700;
 }
 
+/* Gallery Container Styles */
+
+.gallery-container{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 0 300px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
 /* main styles */
 
 main {
