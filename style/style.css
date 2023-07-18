@@ -219,7 +219,7 @@ main {
     font-weight: 400;
     line-height: 26px;
     margin-top: 0px;
-    width: 542px;
+    max-width: 542px;
     margin: 0 auto;
 }
 .sponsors-image{
@@ -277,6 +277,18 @@ main {
     .fact-icon>div {
         margin-bottom: 20px;
     }
+    .sponsors-image{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .sponsors-container{
+        padding: 0px 20px;
+    }
+    .sponsors-image img{
+        width: 70%;
+        padding-bottom: 20px;
+    }
 }
 
 /* Responsive Medium Device */
@@ -313,5 +325,17 @@ main {
 
     .fact-icon>div {
         margin-bottom: 20px;
+    }
+    .sponsors-image{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+    .sponsors-image img{
+        width: 70%;
+        align-content: center;
+    }
+    .sponsors-container{
+        margin: 0 auto;
     }
 }
