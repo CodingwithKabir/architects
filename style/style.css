@@ -295,15 +295,19 @@ main {
 
 .experience {
     background-color: #FF900E;
-    padding: 45px 40px;
+    padding: 15px 20px;
     text-align: center;
     border-radius: 8px;
+    width: 342px;
+    position: relative;
+    bottom: 120px;
+    right: 90px;
 }
 
 .experience-title {
     color: #FFF;
     text-align: center;
-    font-size: 65px;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 70px;
     margin-bottom: 0px;
@@ -387,6 +391,23 @@ main {
         padding: 20px 20px;
         margin-top: 100px;
     }
+    .featured-container{
+        flex-direction: column;
+    }
+    .featured-image img{
+        width: 100%;
+    }
+    .experience {
+        padding: 5px 10px;
+        width: 242px;
+        position: relative;
+        bottom: 100px;
+        right: 0px;
+        left: 0px;
+    }
+    .experience-title{
+        font-size: 2rem;
+    }
 }
 
 /* Responsive Medium Device */
@@ -443,5 +464,22 @@ main {
     .footer-container {
         padding: 20px 20px;
         margin-top: 100px;
+    }
+    .featured-container{
+        flex-direction: column;
+    }
+    .featured-image img{
+        width: 100%;
+    }
+    .experience {
+        padding: 5px 10px;
+        width: 242px;
+        position: relative;
+        bottom: 100px;
+        right: 0px;
+        left: 0px;
+    }
+    .experience-title{
+        font-size: 2rem;
     }
 }
