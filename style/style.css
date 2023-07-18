@@ -263,6 +263,7 @@ main {
     color: #131313;
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .card-description {
@@ -270,6 +271,23 @@ main {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin-top: 0px;
+}
+
+.featured-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    max-width: 464px;
+}
+
+.featured-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 0px;
 }
 
 /* Responsive Responsive Queries */
