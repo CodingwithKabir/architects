@@ -94,20 +94,23 @@ nav>ul>li>a {
 .gallery-container{
     display: flex;
     align-items: center;
-    gap: 70px;
-    margin: 0 300px;
+    padding: 0px 30px;
 }
 .gallery{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+.team-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
 
 /* main styles */
 
 main {
     max-width: 1440px;
-    margin: 70px auto;
+    margin: 0 auto;
 }
 
 /* Responsive Responsive Queries */
