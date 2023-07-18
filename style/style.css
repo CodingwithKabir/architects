@@ -244,6 +244,34 @@ main {
     font-weight: 400;
 }
 
+/* Featured Container Styles */
+
+.featured-container {
+    display: flex;
+    margin-top: 130px;
+    gap: 140px;
+}
+
+.card {
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.card-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 /* Responsive Responsive Queries */
 
 /* Responsive Mobile Device */
@@ -309,6 +337,7 @@ main {
         width: 70%;
         padding-bottom: 20px;
     }
+
     .footer-container {
         padding: 20px 20px;
         margin-top: 100px;
@@ -365,6 +394,7 @@ main {
     .sponsors-container {
         margin: 0 auto;
     }
+
     .footer-container {
         padding: 20px 20px;
         margin-top: 100px;
