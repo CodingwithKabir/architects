@@ -95,12 +95,13 @@ nav>ul>li>a {
     display: flex;
     align-items: center;
     padding: 0px 30px;
+
 }
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .team-content {
@@ -140,7 +141,7 @@ nav>ul>li>a {
 
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 
 /* Responsive Responsive Queries */
@@ -162,6 +163,16 @@ main {
 
     nav ul {
         padding: 0px 0px;
+    }
+    .gallery-container{
+        flex-direction: column-reverse;
+    }
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        padding: 0px 0px;
+        text-align: center;
     }
 }
 
