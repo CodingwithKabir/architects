@@ -257,6 +257,7 @@ main {
     background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
+    gap: 24px;
 }
 
 .card-title {
@@ -280,6 +281,8 @@ main {
     font-weight: 700;
     margin-bottom: 20px;
     max-width: 464px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
 }
 
 .featured-description {
@@ -288,6 +291,30 @@ main {
     font-weight: 400;
     line-height: 26px;
     margin-top: 0px;
+}
+
+.experience {
+    background-color: #FF900E;
+    padding: 45px 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.experience-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 0px;
+}
+
+.experience-description {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 5px;
 }
 
 /* Responsive Responsive Queries */
