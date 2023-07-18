@@ -144,6 +144,25 @@ main {
     margin: 70px auto;
 }
 
+/* Fact Container Styles */
+.fact-container{
+    padding-top: 70px;
+}
+.fact-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.fact-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 542px;
+}
+
 /* Responsive Responsive Queries */
 
 /* Responsive Mobile Device */
@@ -164,13 +183,16 @@ main {
     nav ul {
         padding: 0px 0px;
     }
-    .gallery-container{
+
+    .gallery-container {
         flex-direction: column-reverse;
     }
-    .gallery{
+
+    .gallery {
         grid-template-columns: 1fr;
     }
-    .team-content{
+
+    .team-content {
         padding: 0px 0px;
         text-align: center;
     }
@@ -190,7 +212,8 @@ main {
     header {
         padding: 0px 40px;
     }
-    .gallery-container{
+
+    .gallery-container {
         flex-direction: column-reverse;
     }
 }
