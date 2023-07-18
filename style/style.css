@@ -169,15 +169,13 @@ main {
     display: flex;
     justify-content: space-between;
     margin: 0px 60px;
-
 }
 
 .fact-icon>div {
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
-    width: 241.831px;
-    height: 241.831px;
+    padding: 30px 40px;
 }
 
 .fact-icon-title {
@@ -228,6 +226,19 @@ main {
         padding: 0px 0px;
         text-align: center;
     }
+    .fact-description{
+        width: auto;
+    }
+    .fact-container{
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .fact-icon{
+        flex-direction: column;
+    }
+    .fact-icon>div{
+        margin-bottom: 20px;
+    }
 }
 
 /* Responsive Medium Device */
@@ -247,5 +258,18 @@ main {
 
     .gallery-container {
         flex-direction: column-reverse;
+    }
+    .fact-container{
+        padding: 0px 100px;
+        text-align: center;
+    }
+    .fact-description{
+        width: auto;
+    }
+    .fact-icon{
+        flex-direction: column;
+    }
+    .fact-icon>div{
+        margin-bottom: 20px;
     }
 }
